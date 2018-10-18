@@ -1,0 +1,28 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header Styling */
+
+header {
+  border-bottom: 1px solid seashell;
+
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
