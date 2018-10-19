@@ -6,23 +6,74 @@ html {
   opacity: 0.9;
 }
 
+a {
+  color: seashell;
+}
+
+
 /* Header Styling */
 
 header {
+  background-color: black;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 69px;
+  width: 100%;
 
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  height: 50px;
 }
 
 .logo {
+  margin-left: 10px;
+
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   flex-grow: 1;
 }
 
 nav ul{
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+
+/* Mission Statement Section Styling */
+
+.content {
+  position: relative;
+  z-index: 1;
+  margin-top: 69px;
+}
+
+.mission {
+  background-image: url("../images/mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.mission span {
+  margin: auto 0;
+  width: 1200px;
+  background-color: black;
 }
