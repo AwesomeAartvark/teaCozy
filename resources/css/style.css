@@ -65,6 +65,7 @@ nav ul li {
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
+  min-width: 1200px;
   text-align: center;
   margin: 0 auto;
 
@@ -76,4 +77,37 @@ nav ul li {
   margin: auto 0;
   width: 1200px;
   background-color: black;
+}
+
+
+/* Tea of the Month section styling */
+
+.teaMonth {
+  text-align: center;
+  width: 1000px;
+  margin: 80px auto;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.teaMonth .tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.item {
+  margin: 0 15px;
+}
+
+.item h4 {
+  margin-top: 10px;
 }
